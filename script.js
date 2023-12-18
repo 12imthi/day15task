@@ -13,10 +13,10 @@ function validateName() {
         nameError.innerHTML = 'name is required'
         return false;
     }
-    else if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
-        nameError.innerHTML = 'Write full name'
-        return false;
-    }
+    // else if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
+    //     nameError.innerHTML = 'Write full name'
+    //     return false;
+    // }
     nameError.innerHTML = '<i class="fa-solid fa-check"></i>';
     return true;
 }
